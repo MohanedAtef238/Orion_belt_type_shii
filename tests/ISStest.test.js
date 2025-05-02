@@ -1,5 +1,5 @@
 const { startISSPolling, getLatestISSData } = require('../services/spaceStationAPI.js');
-
+jest.setTimeout(30000);
 console.log('Starting ISS polling');
 startISSPolling();
 
